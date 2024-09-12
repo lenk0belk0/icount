@@ -1,6 +1,9 @@
 ## IDE
 /.vscode/
 
+## development
+/public/coverage/
+
 ###> symfony/framework-bundle ###
 /.env.local
 /.env.local.php
@@ -10,3 +13,22 @@
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
+
+###> php-cs-fixer/shim ###
+/.php-cs-fixer.php
+/.php-cs-fixer.cache
+###< php-cs-fixer/shim ###
+
+###> symfony/phpunit-bridge ###
+.phpunit.result.cache
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###
+
+###> phpstan/phpstan ###
+phpstan.neon
+###< phpstan/phpstan ###
