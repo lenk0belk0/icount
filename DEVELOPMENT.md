@@ -7,12 +7,14 @@ Before commit todos:
 ./vendor/bin/phpunit
 ```
 
+All tests should be passed!
+
 with coverage
 ```shell
 XDEBUG_MODE=coverage php ./vendor/bin/phpunit --coverage-html=./public/coverage
 ```
 
-All tests should be passed!
+See coverage at https://{{YOUR_HOST}}:{{YOUR_PORT}}/coverage/index.html
 
 ## Run static code analyzer
 

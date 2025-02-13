@@ -3,3 +3,9 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+
+account_controllers:
+    resource:
+        path: ../src/Containers/Account/UI/Controller/
+        namespace: App\Containers\Account\UI\Controller
+    type: attribute
